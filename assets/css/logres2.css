@@ -1,0 +1,169 @@
+.tl-ellipse {
+    position: absolute;
+    top: 0;
+}
+
+.bl-ellipse {
+    position: absolute;
+    bottom: 0;
+}
+
+.main-container {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+}
+
+.form-section {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.form-wrapper {
+    width: 500px;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo-wrapper {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.login-header {
+    font-size: 22px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+form {
+    max-width: 400px;
+    margin: auto auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 7px;
+    margin-top: 5px;
+}
+
+input {
+    font-size: medium;
+    width: 100%;
+    height: 40px;
+    padding: 12px 12px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    margin-top: 15px !important;
+    background: #3490dc;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input:focus {
+    outline: none;
+    border-color: #777;
+}
+
+.register-link {
+    text-align: center;
+    display: block;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+}
+
+.social-icons a {
+    margin: 0 7px;
+}
+
+.social-icons img {
+    height: 22px;
+}
+
+.social-icons img:hover {
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
+
+.logo-section {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-position: right;
+    background-size: cover;
+}
+
+.logo-section img {
+    height: 100%;
+}
+
+@media screen and (max-width: 1200px) {
+    .form-section {
+        width: 100%;
+    }
+
+    .logo-section {
+        display: none;
+    }
+}
+
+.reg-header {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.container {
+    display: flex;
+}
+
+.reg-section {
+    flex: 3;
+}
+
+.image {
+    flex: 2;
+    position: relative;
+}
+
+.reg-d {
+    position: absolute;
+    right: 0;
+}
+
+@media (max-width: 1200px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .reg-section {
+        width: 100%;
+    }
+
+    .image {
+        display: none;
+    }
+}
